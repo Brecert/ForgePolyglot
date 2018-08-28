@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = "1.2.20"
+    ext.kotlin_version = "1.2.51"
 
     repositories {
         mavenCentral()
@@ -43,9 +43,9 @@ repositories {
 }
 
 dependencies {
-    compile group: "net.shadowfacts", name: "Forgelin", version: "1.6.0"
+    compile group: "net.shadowfacts", name: "Forgelin", version: "1.7.3"
     // https://mvnrepository.com/artifact/org.graalvm/graal-sdk
-    compile group: "org.graalvm", name: "graal-sdk", version: "0.33"
+    compile group: "org.graalvm", name: "graal-sdk", version: "1.0.0-rc5"
 
 }
 

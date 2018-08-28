@@ -17,7 +17,7 @@
 package tf.veriny.forgepolyglot.barrier
 
 import org.graalvm.polyglot.Context
-import tf.veriny.forgepolyglot.barrier.wrapper.BlockWrapper
+// import tf.veriny.forgepolyglot.barrier.wrapper.BlockWrapper
 
 /**
  * Used to export symbols into a Polymod from Java-land.
